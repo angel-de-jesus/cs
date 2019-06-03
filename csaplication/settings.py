@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 DEBUG = False
 
-ALLOWED_HOSTS = ['https://examplecs5.herokuapp.com/']
+ALLOWED_HOSTS = ['ejemplocs5.herokuapp.com']
 
 
 # Application definition
