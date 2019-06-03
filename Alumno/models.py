@@ -5,8 +5,8 @@ from django.utils import timezone
 from Profesor.models import Profesor
 
 class Alumno(models.Model):
-    profesorAsig = models.ForeignKey(Profesor, on_delete = models.SET(-1))
-    address = models.CharField(max_length=250, null= False)
+    profesor = models.ForeignKey(Profesor, on_delete = models.SET(-1))
+    direccion = models.CharField(max_length=250, null= False)
     name =   models.CharField(max_length=100, null=False)
     ap_pat = models.CharField(max_length=100, null=False)
     ap_mat = models.CharField(max_length=100, null=False)

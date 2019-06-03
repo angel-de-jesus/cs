@@ -9,5 +9,5 @@ from drf_dynamic_fields import DynamicFieldsMixin
 class ProfesorSerializers(DynamicFieldsMixin, serializers.ModelSerializer):
     class Meta:
         model = Profesor
-        fields = ('id','address','name','ap_pat','ap_mat','telefono','edad','sexo','yearsExperience','fechaNacimiento')
+        fields = ('id','direccion','name','ap_pat','ap_mat','telefono','edad','sexo','aniosExperiencia','fechaNacimiento')
 

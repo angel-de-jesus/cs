@@ -7,5 +7,5 @@ from drf_dynamic_fields import DynamicFieldsMixin
 class AlumnoSerializers(DynamicFieldsMixin, serializers.ModelSerializer):
     class Meta:
         model = Alumno
-        fields = ('id','profesorAsig','address','name','ap_pat','ap_mat','matricula','materia','telefono','edad','sexo','fechaNacimiento')
+        fields = ('id','profesor','direccion','name','ap_pat','ap_mat','matricula','materia','telefono','edad','sexo','fechaNacimiento')
 
